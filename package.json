@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- "scripts": {
-	"start": "nodemon connect.js"
+  "scripts": {
+    "start": "nodemon connect.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "modules": "^0.4.0",
+    "node": "^20.3.1"
+  }
 }
