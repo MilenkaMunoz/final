@@ -47,16 +47,16 @@ app.listen(
 
 // loaclhost: 3000
 app.post(
-    "/api/Consultas", (req, res) => {
+    "/api/formulario", (req, res) => {
         let data = {
-            NOMBRES: req.body.NOMBRES,
-            CORREO: req.body.CORREO,
+            NOMBRE_APELLIDO: req.body.NOMBRES_APELLIDO,
             DNI: req.body.DNI,
-            FECHA: req.body.FECHA,
+            DNI: req.body.DNI,
+            FECHA_NACIMINETO: req.body.FECHA_NACIMIENTO,
             CONTRASEÑA: req.body.CONTRASEÑA,
            
         }
-        let sql = "INSERT INTO Consultas SET ?";
+        let sql = "INSERT INTO formulario SET ?";
         conexion.query(
             sql, data, function (error, resultados) {
                 if (error) {
