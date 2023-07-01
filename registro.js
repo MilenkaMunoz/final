@@ -3,8 +3,8 @@ let resultados = '';
 const formArticulo = document.querySelector("form");
 const nombre = document.getElementById("nombre");
 const correo = document.getElementById("correo");
-const celular = document.getElementById("celular");
-const mensaje = document.getElementById("mensaje");
+const dni = document.getElementById("dni");
+const contraseña = document.getElementById("contraseña");
 
 
 let option = '';
