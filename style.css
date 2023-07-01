@@ -1,0 +1,126 @@
+:root{
+    --fuente:'Quicksand', sans-serif;
+}
+
+
+
+body{
+   margin: 0;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/img/v.g.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor-formulario contenedor{
+    background-color: #ff0000;
+}
+.contenedor{
+    margin: 0 auto;
+    max-width: 800px;
+    width: 90%;
+    color: #000000;
+}
+
+.imagen-formulario{
+    background-image: url('/img/logo2.png');
+    background-position: center center;
+    background-size: cover;
+    height: 10px;
+    flex: 0 0 calc(60%);
+    position: relative;
+   
+}
+
+@media(min-width:68px){
+    .imagen-formulario{
+        height: auto;
+        background-position: right;
+        
+    }
+
+}
+@media(min-width:20px){
+    .imagen-formulario{
+        background-position: center;
+       
+    }
+}
+
+@media(min-width:1000px){
+    .contenedor-formulario{
+        display: flex;
+        
+    }
+}
+
+.formulario{
+    padding: 40px;
+    background-color: #ffffffaf;
+    border-radius: 15px;
+}
+.texto-formulario h2, .input label, .password-olvidada a, .texto-formulario p{
+    color: #080101;
+}
+.texto-formulario h2{
+    font-size: 30px;
+    text-align: center;
+}
+.input label{
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 50px 2px;
+}
+.password-olvidada a{
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 20px;
+    color: #1120a7;
+}
+.input input{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+     margin-bottom: 10px;
+     
+}
+.input input[type="submit"]{
+    background-color: #ff0000;
+    color: #f1f3f5;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+    transition: background-color .3s ease-in-out;
+    
+}
+.input input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #d6c317;
+    
+}
+
+.terminos {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+  input[type="text"],
+  input[type="password"]{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+  

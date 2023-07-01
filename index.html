@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="contenedor-formulario contenedor">
+        <div class="imagen-formulario">
+        </div>
+
+        <form class="formulario">
+            <div class="texto-formulario">
+                <h2>Bienvenido</h2>
+            </div>
+            <div class="contaniner">
+                <input type="radio" id="sistemas" name="opciones">
+                <label for="sistemas">Analisis de Sistemas</label>
+                <input type="radio" id="agraria" name="opciones">
+                <label for="agraria">Agraria</label>
+            </div>
+            <div class="input">
+                <input placeholder="Apellidos y Nombre" type="text" id="Nombre_apellido">
+                <input placeholder="Numero de DNI" type="text" id="DNI">
+                <input placeholder="Fecha de Nacimineto" type="text" id="Fecha de Nacimiento">
+                <input placeholder="Correo Institucional" type="text" id="Correo">
+                
+            </div>
+            <div class="input">
+                <input placeholder="Contraseña" type="password" id="contraseña">
+            </div>
+            <center><div class="password-olvidada">
+               <a href="#">¿Olvidaste tu contraseña?</a>
+            </div></center>
+        
+            <div class="terminos">
+                <input type="checkbox" id="aceptar" name="aceptar" required>
+                <label for="aceptar">Acepto los términos y condiciones</label>
+              </div>
+               
+            <div class="input">
+                <input type="submit" value="Registrarme">
+            </div>
+           
+        </form>
+    </div>
+    <script src="/registro.js"></script>
+</body>
+
+</html>
